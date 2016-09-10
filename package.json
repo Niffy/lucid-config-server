@@ -1,0 +1,20 @@
+{
+  "name": "lucid-config-server",
+  "version": "1.0.0",
+  "description": "A simple server to store and retrive configurations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint -c .eslintrc.json app/** --ext .js; true"
+  },
+  "author": "Paul Robinson <niffydroid@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.0.4",
+    "restify": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0"
+  }
+}
